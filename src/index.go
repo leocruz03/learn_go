@@ -65,6 +65,39 @@ func main() {
 		int8 = 8 bits = -128 a 127
 		int16 = 16 bits = -2^15 a 2^15 - 1
 		int32 = 32 bits = -2^31 a 2^31 - 1
+		int64 = 64 bits = -2^63 a 2^63 - 1
+	*/
+
+	// enteros positivos, cuando sabemos que el datos siempre va a ser positivo se utiliza uint
+
+	/*
+		uint8 = 8 bits = 0 a 2^8 - 1
+		uint16 = 16 bits = 0 a 2^16 - 1
+		uint32 = 32 bits = 0 a 2^32 - 1
+		uint64 = 64 bits = 0 a 2^64 - 1
+	*/
+
+	// números decimales se utiliza el float
+
+	/*
+		float32 = 32 bits = +/- 1.18e^-38 a +/- 3.4e^38
+		float64 = 64 bits = +/- 2.23e^-308 a +/- 1.8e^308
+	*/
+
+	// string para textos y bool para true o false
+
+	/*
+		string = ""
+		bool = false/true
+	*/
+
+	// números 	complejos, se usa complex
+
+	/*
+		complex64 = real o imaginario float32
+		complex128 = real o imaginario float64
+
+		ejemplo: c := 10 + 8i
 	*/
 
 }
